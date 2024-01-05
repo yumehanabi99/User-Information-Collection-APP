@@ -5,10 +5,10 @@ var config = {
     Region: 'ap-chengdu',
    //replace with yours
   
-    SecretId: 'AKIDmLekaBhLuDzZv1oUmpdkeJirkPq3rkDQ',
+    SecretId: '',
    //replace with yours
   
-    SecretKey: '6wXuKTNDn7BDI1Vx7QWLuEI6duwjGWzD'
+    SecretKey: ''
    //replace with yours
    }
    module.exports = config
