@@ -1,0 +1,41 @@
+/* pages/success/success.wxss */
+page {
+  background: rgb(245, 245, 245);
+}
+
+.inf{
+  margin: 25rpx;
+  line-height:50rpx;
+  text-align:center;
+}
+
+.sel {
+  display: flex;
+  flex-direction: row;
+  height: 94rpx;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 2rpx solid rgba(245, 245, 245, 1);
+  overflow-wrap: break-word;
+}
+
+.selx {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 2rpx solid rgba(245, 245, 245, 1);
+  overflow-wrap: break-word;
+}
+
+.sel label {
+  width: 40%;
+  font-size: 30rpx;
+  line-height: 94rpx;
+  padding: 0 32rpx;
+}
+
+.selx label {
+  width: 40%;
+  font-size: 30rpx;
+  padding: 30rpx 32rpx;
+}

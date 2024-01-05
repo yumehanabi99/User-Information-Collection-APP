@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<div class="div1">
+<form bindsubmit="formBindsubmit" bindreset="formReset" class="father">
+  <view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:150%;letter-spacing:2px">日语学院</label>
+  </view>
+  <view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:150%;letter-spacing:2px">专业方向信息填报</label>
+  </view>
+  <view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;border-bottom:1px solid #CCC"> </label>
+  </view>
+  
+  <!--<view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:150%;letter-spacing:2px">学号</label>
+  </view>-->
+  <view style="display:flex;margin-top:20px">
+    <input name="userName" placeholder="请输入学号" value='{{un}}' style="width:90%;margin: 0 auto;font-size:150%;text-align:center;letter-spacing:2px"/>
+  </view>
+  <!--<view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:150%;letter-spacing:2px">密码</label>
+  </view>-->
+  <view style="display:flex;margin-top:15px">
+    <input name="psw" placeholder="请输入密码" password="true" value='{{ps}}' style="width:90%;margin: 0 auto;font-size:150%;text-align:center;letter-spacing:2px"/>
+  </view>
+  <view style="display:flex;margin-top:20px">
+    <button disabled="{{logindis}}" size="default" type="primary" formType="submit" style="font-size:150%;letter-spacing:2px">{{loginb}}</button>
+  </view>
+  <view style="display:flex;margin-top:10px">
+    <button bindtap="pw" style="font-size:150%;letter-spacing:2px">修改密码</button>
+  </view>
+  <view style="display:flex;margin-top:20px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:100%;letter-spacing:2px">初次登陆请修改密码</label>
+  </view>
+  <view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:100%;letter-spacing:2px">登陆如遇问题请重启小程序</label>
+  </view>
+  <view style="display:flex;margin-top:10px">
+    <button size='mini' bindtap="rg" style="font-size:100%;letter-spacing:2px">忘记密码</button>
+  </view>
+</form>
+</div>

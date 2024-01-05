@@ -1,0 +1,10 @@
+<!--miniprogram/pages/rg/rg.wxml-->
+<view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:150%;letter-spacing:2px">微信扫码下方二维码进群</label>
+</view>
+<view style="display:flex;margin-top:10px">
+    <label style="margin: 0 auto;width:90%;text-align:center;font-size:150%;letter-spacing:2px">进行人工账号重置</label>
+</view>
+<view style="display:flex;margin-top:10px">
+  <image style="width: 200px; height: 200px; background-color: #ffffff;margin: 0 auto;width:90%" mode='aspectFit' src='https://7975-yume-hanabi-6g7yg15na02fded6-1300909478.tcb.qcloud.la/1844711238.jpg?sign=c9446f9d074bb1925829eaf48b6a1c98&t=1683708960'></image>
+</view>

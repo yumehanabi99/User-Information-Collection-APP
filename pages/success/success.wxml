@@ -1,0 +1,59 @@
+<!--pages/success/success.wxml-->
+<view class="inf">
+  <text>{{info1}}</text>
+</view>
+<view class="inf">
+  <text>{{info2}}</text>
+</view>
+
+<form bindsubmit="formBindsubmit">
+  <view class="sel">
+    <label>{{col0}}</label>
+    <label>{{name}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col1}}</label>
+    <label>{{index0}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col2}}</label>
+    <label>{{class}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col3}}</label>
+    <label>{{num}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col4}}</label>
+    <label>{{index1}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col5}}</label>
+    <label>{{index2}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col6}}</label>
+    <label>{{index3}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col7}}</label>
+    <label>{{index4}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col8}}</label>
+    <label>{{sc}}</label>
+  </view>
+  <view class="sel">
+    <label>{{col9}}</label>
+    <label>{{major}}</label>
+  </view>
+  <!--
+  <view class="selx">
+    <label>获奖</label>
+    <label>{{go}}</label>
+  </view>
+  -->
+  <view style="display:flex;margin-top:20px;margin-bottom:20px">
+    <button size="default" type="primary" formType="submit" bindtap="redo">{{redob}}</button>
+  </view>
+</form>

@@ -1,0 +1,25 @@
+<form bindsubmit="formBindsubmit">
+    <view class="shop">
+        <label>学号</label>
+        <input type="number" name="userName" placeholder="请输入" placeholder-style="text-align:left"></input>
+    </view>
+    <view class="shop">
+        <label>原密码</label>
+        <input name="psw" placeholder="请输入" placeholder-style="text-align:left"></input>
+    </view>
+    <view class="shop">
+        <label>新密码</label>
+        <input name="newpsw" placeholder="请输入" placeholder-style="text-align:left"></input>
+    </view>
+    <view class="shop">
+        <label>确认密码</label>
+        <input name="cnewpsw" placeholder="请输入" placeholder-style="text-align:left"></input>
+    </view>
+    <view style="display:flex;margin-top:20px">
+        <label style="margin: 0 auto;width:90%;text-align:center;font-size:100%;letter-spacing:2px">密码不限制长度及字符组合</label>
+     </view>
+    <view style="display:flex;margin-top:10px">
+        <label style="margin: 0 auto;width:90%;text-align:center;font-size:100%;letter-spacing:2px">请妥善保管个人密码</label>
+    </view>
+    <view><button style="width:100%;margin-top:20px" formType="submit">提交</button></view>
+</form>

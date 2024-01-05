@@ -1,0 +1,69 @@
+page {
+  background: rgba(245, 245, 245, 1);
+}
+
+.inf{
+  margin: 25rpx;
+  line-height:50rpx;
+  text-align:left;
+  font-size: 30rpx;
+}
+
+.infz{
+  margin: 25rpx;
+  line-height:50rpx;
+  text-align:center;
+  font-size: 30rpx;
+}
+
+.sel {
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 2rpx solid rgba(245, 245, 245, 1);
+  overflow-wrap: break-word;
+}
+
+.selx {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 2rpx solid rgba(245, 245, 245, 1);
+  overflow-wrap: break-word;
+}
+
+.selx label{
+  width: 40%;
+  font-size: 30rpx;
+  height: 0rpx;
+  padding: 30rpx 32rpx;
+}
+
+.sel label {
+  width: 40%;
+  font-size: 30rpx;
+  height: 0rpx;
+  padding: 30rpx 32rpx;
+}
+
+.sel input {
+  height: 0rpx;
+  font-size: 30rpx;
+  padding: 22rpx 0rpx;
+}
+
+.sel picker {
+  font-size: 30rpx;
+  margin-top: 30rpx;
+}
+
+textarea {
+  word-break: break-all;
+  padding: 32rpx 30rpx 0 0;
+  font-size: 30rpx;
+  width: 1200%;
+  height: 150rpx;
+}
+

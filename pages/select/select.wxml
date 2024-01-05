@@ -1,0 +1,83 @@
+<form bindsubmit="formBindsubmit">
+    <view class="sel">
+        <label>{{col0}}</label>
+        <input placeholder-style="text-align:left" value="{{name}}" disabled="true"></input>
+    </view>
+    <view class="sel">
+        <label>{{col1}}</label>
+        <picker name="sexx" bindchange="bindPickerChange0" value="{{index0}}" range="{{array0}}">
+            <view class="picker">{{array0[index0]}}</view>
+        </picker>
+    </view>
+    <view class="sel">
+        <label>{{col2}}</label>
+        <input placeholder-style="text-align:left" value="{{class}}" disabled="true"></input>
+    </view>
+    <view class="sel">
+        <label>{{col3}}</label>
+        <input placeholder="{{col17}}" placeholder-style="text-align:left" value="{{num}}" disabled="true"></input>
+    </view>
+    <view class="sel">
+        <label>{{col4}}</label>
+        <picker name="one" bindchange="bindPickerChange1" value="{{index1}}" range="{{array}}">
+            <view class="picker">{{array[index1]}}</view>
+        </picker>
+    </view>
+    <view class="sel">
+        <label>{{col5}}</label>
+        <picker name="two" bindchange="bindPickerChange2" value="{{index2}}" range="{{array}}">
+            <view class="picker">{{array[index2]}}</view>
+        </picker>
+    </view>
+    <view class="sel">
+        <label>{{col6}}</label>
+        <picker name="three" bindchange="bindPickerChange3" value="{{index3}}" range="{{array}}">
+            <view class="picker">{{array[index3]}}</view>
+        </picker>
+    </view>
+    <view class="sel">
+        <label>{{col7}}</label>
+        <picker name="tiaoji" bindchange="bindPickerChange4" value="{{index4}}" range="{{array2}}">
+            <view class="picker">{{array2[index4]}}</view>
+        </picker>
+    </view>
+    <view class="sel">
+        <label>{{col8}}</label>
+        <input input type="digit" name="s" placeholder="{{col17}}" placeholder-style="text-align:left" value="{{sc}}"></input>
+    </view>
+    <view class="sel">
+        <label>{{col9}}</label>
+        <input input type="digit" name="m" placeholder="{{col17}}" placeholder-style="text-align:left"
+            value="{{major}}"></input>
+    </view>
+
+    <!--<view class="selx">
+        <label>获奖</label>
+        <form bindsubmit="evaSubmit">
+            <textarea name="g" value="{{go}}" bindblur="charChange" maxlength="500"></textarea></form>
+    </view>-->
+
+    <view class="infz">
+        <text>{{col10}}</text>
+    </view>
+
+    <view class="infz">
+        <text>{{col11}}</text>
+    </view>
+
+    <view class="inf">
+        <text>{{col12}}</text>
+    </view>
+
+    <view class="inf">
+        <text>{{col13}}</text>
+    </view>
+
+    <view class="inf">
+        <text>{{col14}}</text>
+    </view>
+
+    <view style="display:flex;margin-top:20px;margin-bottom:20px">
+        <button size="default" type="primary" formType="submit">{{col15}}</button>
+    </view>
+</form>
