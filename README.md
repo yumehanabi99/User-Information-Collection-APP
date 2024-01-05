@@ -5,11 +5,12 @@
 
 主な機能を説明
 ====================
-1.メインページ：ユーザーがアカウントとパスワードを入力し、ログインします。
-![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/index.PNG)
-  
+1.メインページ：ユーザーがアカウントとパスワードを入力し、ログインします。  
+(ソースコード：pages/index)  
+![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/index.PNG)  
 2．そして自分の情報を入力し、ボタンを押してクラウドサーバーにアップロードします。
-![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/shuru.PNG)
-  
-3．確認するために、もう一回クラウドサーバーからデータをダウンロードし見せます。
-![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/queren.PNG)
+(ソースコード：pages/select)  
+![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/shuru.PNG)  
+3．確認するために、もう一回クラウドサーバーからデータをダウンロードし見せます。  
+(ソースコード：pages/success)  
+![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/queren.PNG)  
