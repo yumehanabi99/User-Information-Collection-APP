@@ -18,7 +18,10 @@
 1.メインページ：ユーザーがアカウントとパスワードを入力し、ログインします。 <br />
 1.登录界面（主页）：首先用户需要输入账号和密码，第一次登录会被提示修改密码。
 (ソースコード：pages/index)  
+<br />
 ![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/index.png)  
+<br />
+<br />
 2．自分の情報を入力し、ボタンを押してクラウドサーバーにアップロードします。<br />
 2．进入输入信息页面，用户填写信息完毕后下拉至最后点击上传按钮即可上传。
 (ソースコード：pages/select)  
