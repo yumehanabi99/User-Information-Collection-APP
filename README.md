@@ -33,6 +33,6 @@
 3．在上传前，会显示确认页面，信息无误即可确认上传。
 (ソースコード：pages/success)  
 <br />
-![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/queren.PNG)  
+![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/o.png)  
 <br />
 <br />
