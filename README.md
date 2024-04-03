@@ -25,7 +25,10 @@
 2．自分の情報を入力し、ボタンを押してクラウドサーバーにアップロードします。<br />
 2．进入输入信息页面，用户填写信息完毕后下拉至最后点击上传按钮即可上传。
 (ソースコード：pages/select)  
-![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/shuru.PNG)  
+<br />
+![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/i.png)  
+<br />
+<br />
 3．確認するために、もう一回クラウドサーバーからデータをダウンロードし見せます。  <br />
 3．在上传前，会显示确认页面，信息无误即可确认上传。
 (ソースコード：pages/success)  
