@@ -15,15 +15,15 @@
 ミニアプリは、ユーザーの登録、パスワードの修正、情報入力、アプロード、サーバーから情報をゲットして修正などの機能が含まれます。
 小程序主要实现了用户登录、修改密码、填写信息、上传信息、从服务器获取已填写信息并修改等功能。
 
-1.メインページ：ユーザーがアカウントとパスワードを入力し、ログインします。 
+1.メインページ：ユーザーがアカウントとパスワードを入力し、ログインします。 <br />
 1.登录界面（主页）：首先用户需要输入账号和密码，第一次登录会被提示修改密码。
 (ソースコード：pages/index)  
 ![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/index.PNG)  
-2．自分の情報を入力し、ボタンを押してクラウドサーバーにアップロードします。
+2．自分の情報を入力し、ボタンを押してクラウドサーバーにアップロードします。<br />
 2．进入输入信息页面，用户填写信息完毕后下拉至最后点击上传按钮即可上传。
 (ソースコード：pages/select)  
 ![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/shuru.PNG)  
-3．確認するために、もう一回クラウドサーバーからデータをダウンロードし見せます。  
+3．確認するために、もう一回クラウドサーバーからデータをダウンロードし見せます。  <br />
 3．在上传前，会显示确认页面，信息无误即可确认上传。
 (ソースコード：pages/success)  
 ![image](https://github.com/yumehanabi99/zhuanyefangxiangtianbao/blob/master/%E8%AA%AC%E6%98%8E%E7%94%A8/queren.PNG)  
